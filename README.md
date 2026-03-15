@@ -61,8 +61,8 @@ Run `403x --stats` at any time to see these numbers live.
 **Requirements:** Python 3.10+
 
 ```bash
-git clone https://github.com/YOURNAME/403xKiech.git
-cd 403xKiech
+git clone https://github.com/iamjhae/403xKiech.git
+cd 403xBypass
 pip install -r requirements.txt
 ```
 
@@ -72,7 +72,11 @@ Install globally (adds `403x` to PATH):
 pip install .
 403x --help
 ```
-
+or for linux distro's that no longer support pip
+```bash
+pipx install .
+403x --help
+```
 Or run directly without installing:
 
 ```bash
