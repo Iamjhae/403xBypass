@@ -62,7 +62,7 @@ Run `403x --stats` at any time to see these numbers live.
 
 ```bash
 git clone https://github.com/iamjhae/403xBypass.git
-cd 403xKiech
+cd 403xBypass
 pip install -r requirements.txt
 ```
 
