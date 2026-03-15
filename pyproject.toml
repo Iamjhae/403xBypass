@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "403x"
+version = "1.0.0"
+description = "Advanced 403 Bypass Recon Framework"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "urllib3>=2.0.0",
+]
+
+[project.scripts]
+403x = "forbiddenx.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["forbiddenx*"]
