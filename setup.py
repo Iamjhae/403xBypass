@@ -1,11 +1,12 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="403x",
     version="1.0.0",
     description="Advanced 403 Bypass Recon Framework",
     author="Arookiech",
-    packages=find_packages(),
+    packages=["forbiddenx"],
+    package_dir={"forbiddenx": "forbiddenx"},
     install_requires=[
         "requests>=2.31.0",
         "urllib3>=2.0.0",
