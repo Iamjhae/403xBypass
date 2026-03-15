@@ -61,7 +61,7 @@ Run `403x --stats` at any time to see these numbers live.
 **Requirements:** Python 3.10+
 
 ```bash
-git clone https://github.com/YOURNAME/403xKiech.git
+git clone https://github.com/iamjhae/403xBypass.git
 cd 403xKiech
 pip install -r requirements.txt
 ```
